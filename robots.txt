@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /admin/
+Disallow:
 Allow: /publiczny-folder/
 Sitemap: https://roman-melnyk1.github.io/PetFriedly/sitemap.xml
