@@ -28,7 +28,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   gtag('config', 'G-CE46BKKQQN');
 </script>
     <!-- HTML Meta Tags -->
-    <title>Document</title>
     <meta property="og:url" content="https://roman-melnyk1.github.io/ost_lab02/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Document">
@@ -46,7 +45,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Meta Tags Generated via https://www.opengraph.xyz -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="lab01.css">
+    <title>PetFriendly City - Społeczność Miłośników Zwierząt</title>
+    <link rel="stylesheet" href="style.css">
 
     <script type="application/ld+json">
 {
@@ -100,104 +100,143 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L9X89TL"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<header>
-    <div class="logo">Firma XYZ</div>
-    <nav>
-        <ul>
-            <li><a href="#" >Start</a></li>
-            <li><a href="#" >O nas</a></li>
-            <li><a href="#" >Oferta</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Kontakt</a></li>
-        </ul>
-    </nav>
-</header>
+    <header>
+        <a href="#" class="logo">🐾 PetFriendly City</a>
+        <nav>
+            <ul>
+                <li><a href="#">Strona główna</a></li>
+                <li><a href="#">Mapa miejsc</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">Wydarzenia</a></li>
+                <li><a href="#" class="btn-nav" id="open-login-btn">Zaloguj się</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<section class="hero">
-    <h1>Witamy w naszej firmie!</h1> <!-- powinien być H1 -->
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis quis nunc faucibus posuere.</p>
-    <button name="butt">Zobacz więcej</button>
-</section>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Twoje miasto — przestrzeń dla Ciebie i Twojego pupila</h1>
+            <p>Znajdź przyjaciół na spacery, bezpieczne kawiarnie, weterynarzy i twórz lepsze życie dla czworonogów razem z nami.</p>
+            <a href="#" class="cta-button">Dołącz do społeczności</a>
+        </div>
+        
+        <div class="hero-image-placeholder">
+            <div class="placeholder-text">
+                <img src="./dog1.jpg" alt="dog" />
+            </div>
+            </div>
+    </section>
 
-<section class="about">
-    <h2>Kim jesteśmy?</h2>
-    <p>Jesteśmy pasjonatami nowych technologii, programowania, sprzętu komputerowego i wszystkiego, co związane z cyfrowym światem. Klub Komputerowy powstał z inicjatywy grupy entuzjastów, którzy wierzą, że dzielenie się wiedzą i wspólne rozwijanie umiejętności to najlepszy sposób na rozwój – zarówno osobisty, jak i zawodowy. Dziś tworzymy aktywną społeczność, która łączy ludzi w każdym wieku – od początkujących użytkowników po zaawansowanych programistów, graczy, grafików i inżynierów.
-Naszym celem jest stworzenie przestrzeni, w której każdy może zdobywać nowe umiejętności, rozwijać swoje zainteresowania i realizować autorskie projekty technologiczne. Organizujemy regularne spotkania, warsztaty, hackathony, prelekcje i konkursy, które pozwalają uczestnikom nie tylko uczyć się w praktyce, ale również nawiązywać wartościowe kontakty. Jesteśmy otwarci na nowe pomysły i stale dostosowujemy nasze działania do potrzeb członków klubu oraz dynamicznie zmieniającego się świata technologii.
-Działamy zarówno stacjonarnie, jak i online, aby zapewnić dostęp do naszej społeczności jak najszerszemu gronu zainteresowanych. W naszym klubie każdy znajdzie coś dla siebie – niezależnie od poziomu zaawansowania. Prowadzimy zajęcia z podstaw obsługi komputera, kodowania, tworzenia gier, grafiki komputerowej, sztucznej inteligencji i wielu innych dziedzin. Dodatkowo oferujemy pomoc w realizacji indywidualnych projektów oraz dostęp do specjalistycznego sprzętu i oprogramowania.
-Wierzymy, że technologia to nie tylko narzędzie, ale przede wszystkim sposób na wyrażanie siebie, rozwiązywanie problemów i kształtowanie przyszłości. Jeśli chcesz rozwijać swoje umiejętności, dzielić się pasją lub po prostu spędzić czas w gronie osób o podobnych zainteresowaniach – Klub Komputerowy to miejsce właśnie dla Ciebie. Dołącz do nas i twórz z nami przyszłość!.</p>
-    <img src="https://picsum.photos/500/300?random=1" alt="picture not loading">
-</section>
+    <section class="features">
+        <h2>Co oferujemy?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <span class="feature-icon">📍</span>
+                <h3>Mapa PetFriendly</h3>
+                <p>Kawiarnie, parki i hotele przyjazne zwierzętom. Sprawdzone przez naszą społeczność.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">🤝</span>
+                <h3>Szukanie przyjaciół</h3>
+                <p>Znajdź towarzystwo do porannego biegania lub wieczornych spacerów w Twojej okolicy.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">🆘</span>
+                <h3>Pomoc</h3>
+                <p>Szybkie wyszukiwanie weterynarzy 24/7 i tablica ogłoszeń o zaginionych zwierzętach.</p>
+            </div>
+        </div>
+    </section>
 
-<section class="services">
-    <h2>Co robimy?</h2>
-    <ul class="list-services">
-            <li class="service-item">
-                <div class="service">
-                <h3>SEO</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum vel maiores, 
-                    explicabo minima alias quibusdam repellat!</p>
-                <img src="https://picsum.photos/300/200?random=2" alt="picture not loading">
+    <section class="community">
+        <h2>Pupile naszego miasta</h2>
+        <div class="gallery-grid">
+            <div class="photo-item">
+                <div class="photo-placeholder">🐱</div>
+                <div class="photo-overlay">Mruczek, 2 lata</div>
+            </div>
+            <div class="photo-item">
+                <div class="photo-placeholder">🐶</div>
+                <div class="photo-overlay">Reks, 5 lat</div>
+            </div>
+            <div class="photo-item">
+                <div class="photo-placeholder">🦜</div>
+                <div class="photo-overlay">Kesza</div>
+            </div>
+            <div class="photo-item">
+                <div class="photo-placeholder">🐕</div>
+                <div class="photo-overlay">Luna</div>
+            </div>
+             <div class="photo-item">
+                <div class="photo-placeholder">📸</div>
+                <div class="photo-overlay">Dodaj swoje zdjęcie</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="resources">
+        <div class="links-section">
+            <h2>🔗 Przydatne linki</h2>
+            <ul class="links-list">
+                <li><a href="#">Zasady wyprowadzania psów w mieście <span>➜</span></a></li>
+                <li><a href="#">Kalendarz szczepień: co warto wiedzieć <span>➜</span></a></li>
+                <li><a href="#">Pierwsza pomoc dla zwierząt <span>➜</span></a></li>
+                <li><a href="#">Lokalne fundacje charytatywne <span>➜</span></a></li>
+            </ul>
+        </div>
+
+        <div class="interactive-section">
+            <div class="daily-tip">
+                <h3>💡 Porada dnia</h3>
+                <p id="tip-text">"Nie zapominaj o wodzie na spacerze, nawet jeśli nie jest gorąco. Aktywna zabawa wzmaga pragnienie!"</p>
+                <br>
+                <button id="tip-btn" class="tip-btn">Następna porada</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PetFriendly City. Stworzone z miłością do zwierząt.</p>
+        <div class="socials">
+            <a href="#">Instagram</a>
+            <a href="#">Telegram</a>
+            <a href="#">Facebook</a>
+        </div>
+    </footer>
+    <div id="auth-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            
+            <div class="modal-header">
+                <button class="tab-btn active" onclick="openTab('login')">Logowanie</button>
+                <button class="tab-btn" onclick="openTab('register')">Rejestracja</button>
+            </div>
+
+            <form id="login" class="auth-form active-form">
+                <label>E-mail</label>
+                <input type="email" placeholder="twoj@email.com" required>
                 
-                </div>
-            </li>
-            <li class="service-item">
-                <div class="service">
-                    <h3>Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora magni, pariatur inventore 
-                    laborum esse officiis fuga?</p>
-                    <img src="https://picsum.photos/300/200?random=3" alt="picture not loading">
-                </div>
-            </li>
-            <li class="service-item">
-                <div class="service">
-                    <h3>Web Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, omnis.</p>
-                    <img src="https://picsum.photos/300/200?random=4" alt="picture not loading">
-                </div>
-            </li>
-    </ul>
-    
-</section>
+                <label>Hasło</label>
+                <input type="password" placeholder="******" required>
+                
+                <button type="submit" class="cta-button full-width">Zaloguj się</button>
+            </form>
 
-<section class="blog">
-    <h2>Najnowsze artykuły</h2> 
-    <article>
-        <h3>Artykuł pierwszy</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, molestiae!</p>
-        <a href="#">Czytaj więcej</a>
-    </article>
-    <article>
-        <h3>Artykuł drugi</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, molestiae!</p>
-        <a href="#">Czytaj więcej</a>
-    </article>
-</section>
+            <form id="register" class="auth-form">
+                <label>Imię Twojego zwierzaka</label>
+                <input type="text" placeholder="Np. Reks" required>
 
-<section class="portfolio">
-    <h2>Projekty</h2>
-    <div class="project">
-        <img src="https://picsum.photos/400/250?random=5" alt="picture not loading">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <label>E-mail</label>
+                <input type="email" placeholder="twoj@email.com" required>
+                
+                <label>Hasło</label>
+                <input type="password" placeholder="******" required>
+                
+                <button type="submit" class="cta-button full-width">Zarejestruj się</button>
+            </form>
+        </div>
     </div>
-    <div class="project">
-        <img src="https://picsum.photos/400/250?random=6" alt="picture not loading" >
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    </div>
-</section>
 
-<section class="contact">
-    <h2>Skontaktuj się</h2>
-    <form>
-        <input type="text" placeholder="Imię">
-        <input type="email" placeholder="Email">
-        <textarea placeholder="Wiadomość"></textarea>
-        <button>Wyślij</button>
-    </form>
-</section>
-
-<footer>
-    <p>© 2025 Firma XYZ. Wszelkie prawa zastrzeżone.</p>
-</footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
